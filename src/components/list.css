@@ -1,0 +1,84 @@
+.ListsDiv {
+  width: 500px;
+  height: 480px;
+  border: 5px solid green;
+  border-radius: 5px;
+  overflow: scroll;
+}
+.List {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  padding: 5px;
+  border: 2px solid green;
+  border-radius: 5px;
+}
+.ListText {
+  font-size: 18px;
+  font-weight: bold;
+}
+.EditBtn {
+  width: 70px;
+  height: 30px;
+  font-weight: 700;
+  border: 2px solid green;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  margin-left: 5px;
+  outline: none;
+}
+
+.DeleteBtn {
+  width: 70px;
+  height: 30px;
+  font-weight: 700;
+  border: 2px solid green;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  margin-left: 5px;
+  outline: none;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  /* width: 350px; */
+  height: 450px;
+  border-radius: 2em;
+}
+/* .logo {
+   
+} */
+
+@media (prefers-reduced-motion: no-preference) {
+  .logo {
+    animation: App-logo-spin infinite 10s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
